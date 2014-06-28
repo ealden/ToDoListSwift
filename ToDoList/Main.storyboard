@@ -203,10 +203,10 @@
             </objects>
             <point key="canvasLocation" x="481" y="421"/>
         </scene>
-        <!--View Controller - Add To-Do Item-->
+        <!--Add To Do Item View Controller - Add To-Do Item-->
         <scene sceneID="adD-iM-efG">
             <objects>
-                <viewController id="JbG-WQ-MqF" sceneMemberID="viewController">
+                <viewController id="JbG-WQ-MqF" customClass="AddToDoItemViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="O3B-c8-bdt"/>
                         <viewControllerLayoutGuide type="bottom" id="jnm-fW-2XQ"/>
