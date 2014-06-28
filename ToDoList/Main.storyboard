@@ -194,7 +194,7 @@
                     <navigationItem key="navigationItem" title="My To-Do List" id="epV-Zk-FrY">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="j7C-Wq-2XY">
                             <connections>
-                                <segue destination="JbG-WQ-MqF" kind="modal" id="ykI-HS-vKc"/>
+                                <segue destination="iKs-D1-dh5" kind="modal" id="ykI-HS-vKc"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -215,7 +215,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="New to-do item" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CfM-5A-BE5">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="New to-do item" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CfM-5A-BE5">
                                 <rect key="frame" x="20" y="86" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -228,10 +228,11 @@
                             <constraint firstItem="CfM-5A-BE5" firstAttribute="top" secondItem="O3B-c8-bdt" secondAttribute="bottom" constant="66" id="x0d-YV-3gH"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="XAW-M5-Odj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2T-dk-H73" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="944" y="421"/>
+            <point key="canvasLocation" x="1476" y="421"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DaB-VJ-IAY">
@@ -250,6 +251,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wVw-5v-8T5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-51" y="421"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eEZ-om-OpB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iKs-D1-dh5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="U7f-oG-0gb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JbG-WQ-MqF" kind="relationship" relationship="rootViewController" id="ry5-fp-6oW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vtL-HY-cA0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944" y="421"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
