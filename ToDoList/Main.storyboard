@@ -229,7 +229,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add To-Do Item" id="XAW-M5-Odj">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="7A9-qp-9r6"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="7A9-qp-9r6">
+                            <connections>
+                                <action selector="cancel:" destination="JbG-WQ-MqF" id="wjt-SW-mJY"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="sTD-5B-lML"/>
                     </navigationItem>
                 </viewController>
