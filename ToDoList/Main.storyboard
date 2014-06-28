@@ -203,7 +203,7 @@
             </objects>
             <point key="canvasLocation" x="481" y="421"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Add To-Do Item-->
         <scene sceneID="adD-iM-efG">
             <objects>
                 <viewController id="JbG-WQ-MqF" sceneMemberID="viewController">
@@ -228,7 +228,10 @@
                             <constraint firstItem="CfM-5A-BE5" firstAttribute="top" secondItem="O3B-c8-bdt" secondAttribute="bottom" constant="66" id="x0d-YV-3gH"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="XAW-M5-Odj"/>
+                    <navigationItem key="navigationItem" title="Add To-Do Item" id="XAW-M5-Odj">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="7A9-qp-9r6"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="sTD-5B-lML"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2T-dk-H73" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
