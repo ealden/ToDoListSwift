@@ -54,13 +54,13 @@ class ToDoListTableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView?, cellForRowAtIndexPath indexPath: NSIndexPath?) -> UITableViewCell? {
-        let cell = tableView!.dequeueReusableCellWithIdentifier("ListPrototypeCell", forIndexPath: indexPath)
+        let cell = tableView!.dequeueReusableCellWithIdentifier("ListPrototypeCell", forIndexPath: indexPath) as UITableViewCell
 
         if let toDoItem = toDoItems[indexPath!.row] as ToDoItem? {
             cell.textLabel!.text = toDoItem.itemName
         }
 
-        return cell as UITableViewCell
+        return cell
     }
 
     /*
