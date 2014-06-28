@@ -53,15 +53,15 @@ class ToDoListTableViewController: UITableViewController {
         toDoItems += ToDoItem(itemName: "Call DSL Support")
     }
 
-    /*
     override func tableView(tableView: UITableView?, cellForRowAtIndexPath indexPath: NSIndexPath?) -> UITableViewCell? {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView!.dequeueReusableCellWithIdentifier("ListPrototypeCell", forIndexPath: indexPath)
 
-        // Configure the cell...
+        if let toDoItem = toDoItems[indexPath!.row] as ToDoItem? {
+            cell.textLabel!.text = toDoItem.itemName
+        }
 
-        return cell
+        return cell as UITableViewCell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
