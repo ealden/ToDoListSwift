@@ -15,6 +15,10 @@ class AddToDoItemViewController: UIViewController {
         // Custom initialization
     }
 
+    init(coder aDecoder: NSCoder!) {
+        super.init(coder: aDecoder)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
