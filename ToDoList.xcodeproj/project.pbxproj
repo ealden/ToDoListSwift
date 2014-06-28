@@ -10,7 +10,7 @@
 		F3CC37CA195E713300F63E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC37C9195E713300F63E7F /* AppDelegate.swift */; };
 		F3CC37CC195E713400F63E7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CC37CB195E713400F63E7F /* Images.xcassets */; };
 		F3CC37D8195E713400F63E7F /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC37D7195E713400F63E7F /* ToDoListTests.swift */; };
-		F3CC37E2195E733800F63E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CC37E1195E733800F63E7F /* Main.storyboard */; };
+		F3CC37ED195E753800F63E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CC37EC195E753800F63E7F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,7 @@
 		F3CC37D1195E713400F63E7F /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CC37D6195E713400F63E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3CC37D7195E713400F63E7F /* ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTests.swift; sourceTree = "<group>"; };
-		F3CC37E1195E733800F63E7F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		F3CC37EC195E753800F63E7F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		F3CC37C6195E713300F63E7F /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				F3CC37E1195E733800F63E7F /* Main.storyboard */,
+				F3CC37EC195E753800F63E7F /* Main.storyboard */,
 				F3CC37C9195E713300F63E7F /* AppDelegate.swift */,
 				F3CC37CB195E713400F63E7F /* Images.xcassets */,
 				F3CC37C7195E713300F63E7F /* Supporting Files */,
@@ -185,8 +185,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CC37ED195E753800F63E7F /* Main.storyboard in Resources */,
 				F3CC37CC195E713400F63E7F /* Images.xcassets in Resources */,
-				F3CC37E2195E733800F63E7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
