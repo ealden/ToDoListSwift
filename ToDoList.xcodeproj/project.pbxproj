@@ -12,6 +12,7 @@
 		F3CC37D8195E713400F63E7F /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC37D7195E713400F63E7F /* ToDoListTests.swift */; };
 		F3CC37ED195E753800F63E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CC37EC195E753800F63E7F /* Main.storyboard */; };
 		F3CC37EF195E7E1100F63E7F /* AddToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC37EE195E7E1100F63E7F /* AddToDoItemViewController.swift */; };
+		F3CC37F1195E7F6C00F63E7F /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC37F0195E7F6C00F63E7F /* ToDoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		F3CC37D7195E713400F63E7F /* ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTests.swift; sourceTree = "<group>"; };
 		F3CC37EC195E753800F63E7F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F3CC37EE195E7E1100F63E7F /* AddToDoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoItemViewController.swift; sourceTree = "<group>"; };
+		F3CC37F0195E7F6C00F63E7F /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				F3CC37CB195E713400F63E7F /* Images.xcassets */,
 				F3CC37C7195E713300F63E7F /* Supporting Files */,
 				F3CC37EE195E7E1100F63E7F /* AddToDoItemViewController.swift */,
+				F3CC37F0195E7F6C00F63E7F /* ToDoListTableViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			files = (
 				F3CC37CA195E713300F63E7F /* AppDelegate.swift in Sources */,
 				F3CC37EF195E7E1100F63E7F /* AddToDoItemViewController.swift in Sources */,
+				F3CC37F1195E7F6C00F63E7F /* ToDoListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
