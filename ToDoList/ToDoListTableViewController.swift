@@ -58,9 +58,24 @@ class ToDoListTableViewController: UITableViewController {
 
         if let toDoItem = toDoItems[indexPath!.row] as ToDoItem? {
             cell.textLabel!.text = toDoItem.itemName
+
+            if toDoItem.completed {
+                cell.accessoryType = .Checkmark
+            } else {
+                cell.accessoryType = .None
+            }
         }
 
         return cell
+    }
+
+    override func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
+        tableView!.deselectRowAtIndexPath(indexPath, animated: false)
+
+        let tappedItem = toDoItems[indexPath!.row]
+        tappedItem.completed = !tappedItem.completed
+
+        tableView!.reloadRowsAtIndexPaths([indexPath], withRowAnimation: .None)
     }
 
     /*
@@ -79,7 +94,7 @@ class ToDoListTableViewController: UITableViewController {
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
     }
     */
 
