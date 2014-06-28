@@ -10,8 +10,10 @@ import Foundation
 
 class ToDoItem {
     let itemName: String
+    var completed: Bool
 
     init(itemName: String) {
         self.itemName = itemName
+        self.completed = false
     }
 }
