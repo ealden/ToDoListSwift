@@ -9,5 +9,9 @@
 import Foundation
 
 class ToDoItem {
-    
+    let itemName: String
+
+    init(itemName: String) {
+        self.itemName = itemName
+    }
 }
