@@ -9,6 +9,7 @@
 import UIKit
 
 class ToDoListTableViewController: UITableViewController {
+    var toDoItems: ToDoItem[] = []
 
     init(style: UITableViewStyle) {
         super.init(style: style)
@@ -27,6 +28,8 @@ class ToDoListTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+
+        loadInitialData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,15 +40,17 @@ class ToDoListTableViewController: UITableViewController {
     // #pragma mark - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView?) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView?, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete method implementation.
-        // Return the number of rows in the section.
-        return 0
+        return toDoItems.count
+    }
+
+    func loadInitialData() {
+        toDoItems += ToDoItem(itemName: "Buy Milk")
+        toDoItems += ToDoItem(itemName: "Clean Room")
+        toDoItems += ToDoItem(itemName: "Call DSL Support")
     }
 
     /*
