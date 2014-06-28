@@ -215,7 +215,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="New to-do item" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CfM-5A-BE5">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="New to-do item" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CfM-5A-BE5">
                                 <rect key="frame" x="20" y="86" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -225,7 +225,7 @@
                         <constraints>
                             <constraint firstItem="CfM-5A-BE5" firstAttribute="leading" secondItem="gqq-HK-al6" secondAttribute="leading" constant="20" id="4r6-WJ-03n"/>
                             <constraint firstAttribute="trailing" secondItem="CfM-5A-BE5" secondAttribute="trailing" constant="20" id="mMp-zG-xfl"/>
-                            <constraint firstItem="CfM-5A-BE5" firstAttribute="top" secondItem="O3B-c8-bdt" secondAttribute="bottom" constant="66" id="x0d-YV-3gH"/>
+                            <constraint firstItem="CfM-5A-BE5" firstAttribute="top" secondItem="O3B-c8-bdt" secondAttribute="bottom" constant="22" id="x0d-YV-3gH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add To-Do Item" id="XAW-M5-Odj">
